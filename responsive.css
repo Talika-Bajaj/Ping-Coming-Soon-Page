@@ -1,6 +1,6 @@
 @media screen and (min-width: 815px) {
     .container {
-        width: 800px;
+        width: 680px;
         /* margin: 25px; */
     }
 
@@ -14,20 +14,16 @@
     }
 
     main p {
-        margin-top: -25px;
+        margin-top: -10px;
     }
 
     #form {
-        grid-template-columns: 55% 35%;
+        grid-template-columns: 60% 30%;
     }
 
     #note {
         text-align: left;
         margin-left: 35px;
-    }
-
-    #dashboard {
-        margin-top: 22px;
     }
 
     footer {
