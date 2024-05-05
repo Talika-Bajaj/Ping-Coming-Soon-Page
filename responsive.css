@@ -1,0 +1,36 @@
+@media screen and (min-width: 815px) {
+    .container {
+        width: 800px;
+        /* margin: 25px; */
+    }
+
+    .card {
+        gap: 25px;
+    }
+
+    main {
+        margin-top: 0;
+        gap: 30px;
+    }
+
+    main p {
+        margin-top: -25px;
+    }
+
+    #form {
+        grid-template-columns: 55% 35%;
+    }
+
+    #note {
+        text-align: left;
+        margin-left: 35px;
+    }
+
+    #dashboard {
+        margin-top: 22px;
+    }
+
+    footer {
+        gap: 18px;
+    }
+}

@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Libre Franklin", sans-serif;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+:root {
+    --Blue: hsl(223, 87%, 63%);
+
+    /* Secondary */
+
+    --Pale_Blue: hsl(223, 100%, 88%);
+    --Light_Red: hsl(354, 100%, 66%);
+
+    /* Neutral */
+
+    --Gray: hsl(0, 0%, 59%);
+    --Very_Dark_Blue: hsl(209, 33%, 12%);
+}
+
+.container {
+    width: 80vw;
+    margin: 40px;
+    /* width: 800px; */
+    /* text-align: center; */
+}
+
+.card {
+    gap: 35px;
+    /* border: 2px solid red; */
+}
+
+main {
+    margin-top: 20px;
+    gap: 42px;
+}
+
+h2 {
+    color: black;
+}
+
+span {
+    color: var(--Gray);
+    font-weight: 400;
+}
+
+#form {
+    display: grid;
+    grid-template-columns: 90%;
+    justify-content: center;
+    /* align-items: center; */
+    gap: 15px;
+    width: 90%;
+    margin: auto;
+}
+
+#email {
+    width: 100%;
+    padding: 15px 35px;
+    border-radius: 25px;
+    border: 1px solid var(--Gray);
+}
+
+#note {
+    display: none;
+    color: var(--Light_Red);
+    margin-top: 12px;
+}
+
+#submit {
+    width: 100%;
+    outline: none;
+    padding: 15px 25px;
+    border-radius: 25px;
+    border: none;
+    color: white;
+    background-color: var(--Blue);
+    box-shadow: 0px 4px 5px 3px var(--Pale_Blue);
+    transition: 0.2s ease-in;
+    cursor: pointer;
+}
+
+#submit:hover {
+    background-color: hsl(223deg 64.01% 69.37%);
+}
+
+#dashboard {
+    margin-top: 35px;
+    width: 100%;
+}
+
+.grid-layout {
+    display: grid;
+    grid-template-columns: 100%;
+    text-align: center;
+}
+
+footer {
+    gap: 25px;
+}
+
+.icons {
+    color: var(--Blue);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    cursor: pointer;
+}
+
+.icons i {
+    transition: 0.2s ease-in;
+    border: 1px solid var(--Pale_Blue);
+    padding: 7px 9px 7px 9.4px;
+    border-radius: 50%;
+}
+
+.icons i:hover {
+    color: white;
+    background-color: var(--Blue);
+}
+
+footer p {
+    color: var(--Gray);
+}
